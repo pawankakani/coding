@@ -1,0 +1,10 @@
+Value of month : January
+Value of quantity : 120
+Value of temperature : 45.6
+Value of valid : True
+Value of data : None
+Type of month : <class 'str'>
+Type of quantity : <class 'int'>
+Type of temperature : <class 'float'>
+Type of valid : <class 'bool'>
+Type of data : <class 'NoneType'>
