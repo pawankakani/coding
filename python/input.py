@@ -1,3 +1,3 @@
-name = input("Enter your name :") # <1>
+name = input("Enter your name :") ## <1>
 
-print("Hello",name) # <2>
+print("Hello",name) ## <2>
