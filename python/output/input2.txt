@@ -1,0 +1,4 @@
+Enter your age : 30
+Enter today's temperature : 25.6
+Your age is : 30
+Today's temperature is : 25.6
