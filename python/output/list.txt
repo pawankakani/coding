@@ -1,0 +1,3 @@
+<class 'list'>
+The second element of list is : John
+First element of nested list is : a
