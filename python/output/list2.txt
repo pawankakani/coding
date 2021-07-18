@@ -1,0 +1,7 @@
+Number of elements in list are : 3
+Elements in list are : [25, 'John', 34.56]
+Elements in list after append are : [25, 'John', 34.56, 10]
+Elements in list after insert are : [25, 10, 'John', 34.56, 10]
+Elements in list after remove are : [25, 'John', 34.56, 10]
+Elements in list after pop are : [25, 34.56, 10]
+Length of list after clear is : 0
