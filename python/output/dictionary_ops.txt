@@ -1,0 +1,5 @@
+dict_items([('London', 8980000), ('Washington', 693000), ('Tokyo', 14000000), ('Frankfurt', 753000)])
+After pop('Tokyo') {'London': 8980000, 'Washington': 693000, 'Frankfurt': 753000}
+After popitem() {'London': 8980000, 'Washington': 693000}
+dict_keys(['London', 'Washington'])
+dict_values([8980000, 693000])
