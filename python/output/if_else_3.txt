@@ -1,0 +1,2 @@
+Enter temperature in degrees celcius : 22
+It is pleasant
