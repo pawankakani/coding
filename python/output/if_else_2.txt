@@ -1,0 +1,2 @@
+Are you first? Enter y/n : y
+You get gold medal!!
