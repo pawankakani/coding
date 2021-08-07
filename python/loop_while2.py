@@ -6,4 +6,4 @@ while list_index < len(myList): ## <1>
     print(myList[list_index])
     list_index = list_index + 1
 
-print("Loop has finished") ## <3>
+print("Loop has finished") ## <2>
