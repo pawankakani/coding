@@ -1,0 +1,9 @@
+How many students are in class : 3
+Enter total marks : 300
+Enter the marks received by student 1 : 210
+Percentage : 70.0
+Enter the marks received by student 2 : 150
+Percentage : 50.0
+Enter the marks received by student 3 : 250
+Percentage : 83.33333333333334
+Loop has finished
