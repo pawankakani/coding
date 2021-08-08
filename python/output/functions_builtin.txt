@@ -1,0 +1,5 @@
+Minimum number in list is 12
+Maximum number in list is 85
+Number of elements in list are 6
+Length of string is 9
+Sum of two numbers is  50
