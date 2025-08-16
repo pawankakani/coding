@@ -109,6 +109,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+python/skeletonProject/venv
+python/skeletonProject/.venv
 
 # Spyder project settings
 .spyderproject

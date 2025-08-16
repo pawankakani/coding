@@ -1,0 +1,29 @@
+logging:
+  version: 1
+  disable_existing_loggers: False
+  formatters:
+    app_formatter:
+      format: '[%(asctime)s] [%(name)s] [%(levelname)s] [%(message)s]'
+    core_formatter:
+      format: '[%(asctime)s] [%(levelname)s] [%(message)s]'
+
+  handlers:
+    file_handler:
+      class: logging.FileHandler
+      formatter: app_formatter
+      filename: logs/app.log
+      level: INFO
+
+  loggers:
+    application_logger:
+      handlers: [file_handler]
+      level: INFO
+      propagate: False
+    core_logger:
+      handlers: [file_handler]
+      level: DEBUG
+      propagate: False
+
+app_settings:
+  project_name: 'My Awesome Python Project'
+  version: '1.0.0'
