@@ -129,3 +129,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# application logs
+python/skeletonProject/logs/app.log
+python/skeletonProject/logs/core.log

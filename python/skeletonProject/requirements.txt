@@ -1,1 +1,2 @@
-PyYAML>=6.0
+pyaml==25.7.0
+PyYAML==6.0.2

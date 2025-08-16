@@ -8,19 +8,24 @@ logging:
       format: '[%(asctime)s] [%(levelname)s] [%(message)s]'
 
   handlers:
-    file_handler:
+    app_file_handler:
       class: logging.FileHandler
       formatter: app_formatter
       filename: logs/app.log
       level: INFO
+    core_file_handler:
+      class: logging.FileHandler
+      formatter: core_formatter
+      filename: logs/core.log
+      level: DEBUG
 
   loggers:
     application_logger:
-      handlers: [file_handler]
+      handlers: [app_file_handler]
       level: INFO
       propagate: False
     core_logger:
-      handlers: [file_handler]
+      handlers: [core_file_handler]
       level: DEBUG
       propagate: False
 
